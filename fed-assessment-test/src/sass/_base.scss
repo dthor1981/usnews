@@ -1,0 +1,76 @@
+/* =============================
+   GLOBAL SETTINGS 
+   shouldn't need to modify this
+   ============================= */
+
+html {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 15px 0;   
+}
+
+h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+p {
+    margin: 15px 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c7ef0;
+}
+
+li {
+    padding-left: 0.5rem;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+li.instruction {
+    margin: 0 0 10px 20px;
+    line-height: 1.2;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.badge {
+    margin-right: 30px;
+    width: 250px;
+    display: block;
+}
+
+.ad {
+    display: block;
+    margin: 30px auto;
+}
+
+hr {
+    margin: 60px 0 30px;
+}
+
+.hint {
+    margin-top: 30px;
+}

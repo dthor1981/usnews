@@ -1,0 +1,64 @@
+@import "sass/reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "sass/base";
+// see http://hugeinc.github.io/flexboxgrid-sass/ for usage
+@import "sass/flexboxgrid";
+
+/* ==================
+   DO YOUR WORK BELOW
+   ================== */
+@import "sass/reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "sass/base";
+// see http://hugeinc.github.io/flexboxgrid-sass/ for usage
+@import "sass/flexboxgrid";
+
+/* ==================
+   DO YOUR WORK BELOW
+   ================== */
+ ul {
+    list-style-type: none;
+
+}   
+
+strong{float:left;}
+
+img:hover{
+	-webkit-transform: scale(1.05);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+
+}
+
+.list{
+  width:300px;
+}
+
+.list > div{
+ margin-left: 30px;
+}
+
+.list > a{
+  margin-left: 10px;
+}
+
+hr{
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+  margin: 1.25rem 0 1.1875rem;
+}
+@media only screen and (max-width: 767px) {
+       .badge {display:none !important};
+       img {margin: 30px 0px 30px 0px};
+}

@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-lg-8">
+    <h2>{{model.ranking}}</h2>
+        <p>
+            {{model.description}}
+        </p>
+        <div class="row">
+            <div>
+                <img class="badge" src="/img/national-universities-badge.svg" alt="">
+            </div>
+           <div class="row col-xs-12 col-sm-6">
+                <ul>
+                    <li class="">
+                    {% for info in model.rankings %}
+                        <strong>#{{ info.rank }}</strong>
+                        <div class="list">
+                            <a href="">{{ info.institution }}</a>
+                            <div><strong>Location:</strong> {{info.rank}}</div>
+                        </div>
+                        <hr>
+                    {% endfor %}    
+                 </li>
+                </ul>
+           </div>
+        </div>
+    </div>
+    <div class="row center-sm col-lg-4 col-sm-12 col-xs-12" >
+        <img class="add" height="250px" width="300px" src="http://placehold.it/600x500?text=dummy+ad">
+    </div>
+</div>

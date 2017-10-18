@@ -1,0 +1,22 @@
+{
+    "ranking": "Liberal Arts Colleges",
+    "description": "Liberal Arts Colleges emphasize undergraduate education and award at least half of their degrees in the liberal arts fields of study.",
+    "badge": "/img/liberal-arts-badge.svg",
+    "rankings": [
+        {
+            "rank": 1,
+            "institution": "Williams College",
+            "location": "Williamstown, MA"
+        },
+        {
+            "rank": 2,
+            "institution": "Amherst College",
+            "location": "Amherst, MA"
+        },
+        {
+            "rank": 3,
+            "institution": "Wellesley College",
+            "location": "Wellesley"
+        }
+    ]
+}

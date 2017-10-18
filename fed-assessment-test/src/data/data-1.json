@@ -1,0 +1,22 @@
+{
+    "ranking": "National Universities",
+    "description": "Schools in the National Universities category offer a full range of undergraduate majors, plus master's and Ph.D. programs.",
+    "badge": "/img/national-universities-badge.svg",
+    "rankings": [
+        {
+            "rank": 1,
+            "institution": "Princeton University",
+            "location": "Princeton, NJ"
+        },
+        {
+            "rank": 2,
+            "institution": "Harvard University",
+            "location": "Cambridge, MA"
+        },
+        {
+            "rank": 3,
+            "institution": "University of Chicago (tie)",
+            "location": "Chicago, IL"
+        }
+    ]
+}
